@@ -1,0 +1,99 @@
+#nav{
+    background-color: rgb(33, 110, 219);    
+    margin-top: -0.7%;
+    margin-bottom: -0.7%;
+}
+
+#navbar-options a{
+    color: white;
+    font-size: 2em;
+    font-family: 'Roboto';
+}
+
+#navbar-options a:hover {
+    color: #f6a030;
+    border-bottom: 2px solid #ff8520;
+}
+
+#navbarNavAltMarkup {
+    margin-left: 47%;
+}
+
+#hero h1 {
+    font-family: 'Roboto';
+    font-weight: bold;
+    margin-left: 8%;    
+    color: rgb(33, 110, 219);
+}
+
+#hero-image {
+    margin-left: 2%;
+    border-radius: 3em;
+    width: 90%;
+}
+
+.grid-hero {
+    display: grid;
+    overflow: visible;
+    grid-template-columns: 60% 40%;
+}
+
+.grid-hero h2 {
+    color: rgb(252, 184, 12);
+    font-family: 'Roboto';
+    font-weight: bold;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.grid-hero p {
+    margin-top: 4%;
+    margin-left: -10%;
+}
+
+#nosotros-section {
+    margin-top: 3%;
+    margin-left: 25%;
+    width: 50%;
+}
+
+#productos {
+    margin-top: 3%;
+    margin-left: 2%;
+    display: grid;
+    overflow: visible;
+    grid-template-columns: 50% 50%;
+}
+
+#producto-image {
+    border-radius: 3em; 
+    margin-top: 15%;
+    width: 99%;
+}
+
+footer {
+    margin-top: 3%;
+    background-color:  rgb(33, 110, 219);    
+    padding: 20px 10px;
+    color: white;
+    display: grid;
+    overflow: visible;
+    grid-template-columns: 60% 40%;
+}
+  
+/* Sets all link texts to white and puts margin to the left and right */
+footer a {
+    color: white;
+    margin: 0 10px;
+
+}
+
+footer a:hover {
+    color: #f6a030;
+    border-bottom: 2px solid #ff8520;
+}
+
+#profiles {
+    margin-top: 5%;
+    text-align: right;
+}
